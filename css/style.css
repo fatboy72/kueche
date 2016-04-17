@@ -1,0 +1,74 @@
+body {
+	font-family: "Open Sans",sans-serif;
+}
+ul , li {
+	padding:0;
+	margin:0;
+} 
+.jumbotron-head {
+	padding: 0;
+	margin-bottom:0px;
+	background: #F3F3F2 url("../gfx/bg_navi.jpg") no-repeat 50% top;
+}
+
+.teaser-homepage {
+	font-size: 16px;
+	color: #fff;
+	background-color: rgba(0,0,0,0.5);
+	text-transform: uppercase;
+	display: inline;
+	text-align: right;
+	padding-left: 16px;
+	padding-right: 16px;
+	position: absolute;
+	top: 300px;
+	right: 477px;
+}
+
+.double-line {
+	background: url("../gfx/doppellinie.png") repeat-x 50% ;
+	padding: 10px 0;
+	
+}
+.double-line h3 {
+	background: #fff;
+	display: inline;
+	padding: 0 25px;
+	margin-left: 53px;
+}
+
+
+/****************
+*	footer		*
+****************/
+.footer {
+	color: #fff;
+	background:#b3b0b0; 
+	border-bottom:25px solid #181816;
+	list-style-type: none;
+}
+.footer a {
+	color:#fff;
+	text-transform:uppercase;
+	font-size: 12px;
+}
+
+.footer li {
+	list-style-type: none;
+}
+
+.footer li hover {
+	text-decoration: underline;
+}
+
+
+/************************
+*	coulumn override	*
+************************/
+.col-md-2 p {
+	font-size: 12px;
+}
+
+.col-xs-3 img {
+	box-shadow: 5px 5px 10px black;
+}
