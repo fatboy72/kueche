@@ -5,6 +5,13 @@ ul , li {
 	padding:0;
 	margin:0;
 } 
+
+#header-slideshow {
+	position:relative;
+	padding:0 1px;
+}
+
+
 .jumbotron-head {
 	padding: 0;
 	margin-bottom:0px;
@@ -21,8 +28,8 @@ ul , li {
 	padding-left: 16px;
 	padding-right: 16px;
 	position: absolute;
-	top: 300px;
-	right: 477px;
+	top: 40%;
+	right: 2px;
 }
 
 .double-line {
@@ -60,15 +67,14 @@ ul , li {
 .footer li hover {
 	text-decoration: underline;
 }
+.footer p {
+	font-size: 12px;
+}
 
+.footer img {
+	box-shadow: 5px 5px 10px black;
+}
 
 /************************
 *	coulumn override	*
 ************************/
-.col-md-2 p {
-	font-size: 12px;
-}
-
-.col-xs-3 img {
-	box-shadow: 5px 5px 10px black;
-}

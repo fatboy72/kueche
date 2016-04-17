@@ -29,10 +29,13 @@
 	   <!-- Main jumbotron -->
     <div class="jumbotron jumbotron-head">
       <div class="container">
-		<img src="gfx/topbild_1.jpg" class="img-responsive"></img>
-      
-	  <span class="teaser-homepage">vorsprung durch erfahrung<br />
-	  seit &uuml;ber 25 jahren</span>
+		<div class="slideshow" id="header-slideshow">
+			<div>
+				<img src="gfx/topbild_1.jpg" class="img-responsive"></img>
+			</div>	
+			<span class="teaser-homepage">vorsprung durch erfahrung<br />seit &uuml;ber 25 jahren</span>
+		</div>
+	  
 	
 		<!-- Static navbar -->
       <nav class="navbar navbar-inverse">
@@ -140,15 +143,15 @@
 				</div><!-- /.col-md-3 -->	
 				
 				
-				<div class="col-md-6 pics">
+				<div class="col-md-5 pics">
 				  <h4>Aktuelle K&uuml;chen</h4>
 					<div class="row">
-					<div class="col-xs-3"><img class="img-responsive" src="gfx/kuechen_kl_1.jpg" /></div>
-					<div class="col-xs-3"><img class="img-responsive" src="gfx/kuechen_kl_2.jpg" /></div>
-					<div class="col-xs-3"><img class="img-responsive" src="gfx/kuechen_kl_3.jpg" /></div>
+					<div class="col-xs-4"><img class="img-responsive" src="gfx/kuechen_kl_1.jpg" /></div>
+					<div class="col-xs-4"><img class="img-responsive" src="gfx/kuechen_kl_2.jpg" /></div>
+					<div class="col-xs-4"><img class="img-responsive" src="gfx/kuechen_kl_3.jpg" /></div>
 					</div>
 				</div>
-				<div class="col-md-2">
+				<div class="col-md-3">
 				  <h4>Service Kontakt</h4>
 				  <p>
 					  K&uuml;chen Willemsen GmbH<br />
